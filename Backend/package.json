@@ -1,0 +1,35 @@
+{
+  "name": "backend",
+  "private": true,
+  "version": "0.1.0",
+  "description": "A Strapi application",
+  "scripts": {
+    "develop": "strapi develop",
+    "start": "strapi start",
+    "build": "strapi build",
+    "strapi": "strapi"
+  },
+  "dependencies": {
+    "@square/web-sdk": "^2.0.1",
+    "@strapi/plugin-i18n": "4.12.1",
+    "@strapi/plugin-users-permissions": "4.12.1",
+    "@strapi/provider-upload-cloudinary": "^4.12.1",
+    "@strapi/strapi": "4.12.1",
+    "pg": "8.8.0",
+    "react-square-web-payments-sdk": "^3.2.1",
+    "square": "^30.0.0",
+    "strapi-plugin-graphs-builder": "^1.0.0",
+    "stripe": "^12.18.0"
+  },
+  "author": {
+    "name": "A Strapi developer"
+  },
+  "strapi": {
+    "uuid": "da38798b-c40c-420f-bfd0-41bc30f20c21"
+  },
+  "engines": {
+    "node": ">=16.0.0 <=20.x.x",
+    "npm": ">=6.0.0"
+  },
+  "license": "MIT"
+}
