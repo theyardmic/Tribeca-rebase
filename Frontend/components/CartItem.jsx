@@ -39,26 +39,23 @@ const CartItem = ({ data }) => {
             {p.name}
           </div>
 
-          {/* PRODUCT SUBTITLE */}
-          <div className="text-sm md:text-md font-medium text-black/[0.5] block md:hidden">
-            {p.subtitle}
-          </div>
+        
 
           {/* PRODUCT PRICE */}
-          <div className="text-sm md:text-md font-bold text-black/[0.5] mt-2">
+          <div className="text-sm md:text-md font-bold   mt-2">
             MSRP :  ${p.price}
           </div>
         </div>
 
         {/* PRODUCT SUBTITLE */}
-        <div className="text-md font-medium text-black/[0.5] hidden md:block">
+        <div className="text-md font-medium text-[#BF330E]  hidden md:block">
           {p.subtitle}
         </div>
 
         <div className="flex items-center justify-between mt-4">
-          <div className="flex items-center gap-2 md:gap-10 text-black/[0.5] text-sm md:text-md">
+          <div className="flex items-center gap-2 md:gap-10 text-[#BF330E]  text-sm md:text-md">
             <div className="flex items-center gap-1">
-              <div className="font-semibold">Quantity:</div>
+              <div className="font-semibold text-[#BF330E] ">Quantity:</div>
               <select
                 className="hover:text-black"
                 onChange={(e) => updateCartItem(e, "quantity")}
@@ -73,7 +70,7 @@ const CartItem = ({ data }) => {
           </div>
           <RiDeleteBin6Line
             onClick={() => dispatch(removeFromCart({ id: data.id }))}
-            className="cursor-pointer text-black/[0.5] hover:text-black text-[16px] md:text-[20px]"
+            className="cursor-pointer text-[#BF330E]  hover:text-black text-[16px] md:text-[20px]"
           />
         </div>
       </div>
