@@ -36,45 +36,46 @@ const HeroCarousel = () => {
           );
         }}
       >
+      
         <div>
           <img
             src="slide-1.png"
-            className="aspect-auto w-300 h-300  md:aspect-auto object-cover"
+            className="aspect-[16/10] h-[525px] w-[1200]  md:aspect-auto object-cover"
           />
 
           <div
             className="px-[15px] md:px-[40px] py-[10px] md:py-[25px] font-urbanist bg-white absolute bottom-[25px] md:bottom-[75px]
       left-0 text-black/[0.9] text-[15px] md:text-[30px] uppercase font-medium cursor-pointer hover:opacity-90"
           >
-            Shop Now
+            African Coffee and Tea
           </div>
         </div>
 
         <div>
           <img
             src="slide-2.png"
-            className="aspect-[16/10]  md:aspect-auto object-cover"
+            className="aspect-[16/10] h-[525px] w-[1200]  md:aspect-auto object-cover"
           />
 
           <div
             className="px-[15px] md:px-[40px] py-[10px] md:py-[25px] font-urbanist bg-white absolute bottom-[25px] md:bottom-[75px]
       left-0 text-black/[0.9] text-[15px] md:text-[30px] uppercase font-medium cursor-pointer hover:opacity-90"
           >
-            Shop Now
+           African Collectibles
           </div>
         </div>
 
         <div>
           <img
-            src="slide-3.png"
-            className="aspect-[16/10]  md:aspect-auto object-cover"
+            src="slide-6.webp"
+            className="aspect-[16/10] h-[525px] w-[1200] md:aspect-auto object-cover"
           />
 
           <div
             className="px-[15px] md:px-[40px] py-[10px] md:py-[25px] font-Oswald bg-white absolute bottom-[25px] md:bottom-[75px]
       left-0 text-black/[0.9] text-[15px] md:text-[30px] uppercase font-bold cursor-pointer hover:opacity-90"
           >
-            Shop Now
+          Home and Living
           </div>
         </div>
       </Carousel>

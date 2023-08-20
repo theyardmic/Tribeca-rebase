@@ -60,11 +60,11 @@ const Nav_Header = () => {
             <Image
               src="/logo.svg"
               alt="Logo"
-              width={60}
-              height={60}
+              width={150}
+              height={150}
               className="rounded-full md:mr-3"
             />
-            <h1 className="text-2xl mr-3 md:px-2 font-bold">Tribecka</h1>
+          
           </div>
         </Link>
         <Menu
