@@ -56,7 +56,7 @@ const Nav_Header = () => {
     >
       <Wrapper className="h-[60px] flex justify-between items-center">
       <Link href="/">
-          <div className="flex items-center  space-x-3 md:-space-x-6 -md:px-4 cursor-pointer">
+          <div className="flex items-center  space-x-4 md:-space-x-6 -md:px-4 cursor-pointer">
             <Image
               src="/logo.svg"
               alt="Logo"
@@ -64,7 +64,7 @@ const Nav_Header = () => {
               height={5}
               className="rounded-full -ml-4   md:mr-4 -sm:mr-3"
             />
-            <h1 className="text-2xl md:px-4 font-urbanist font-bold">Tribecka</h1>
+            <h1 className="text-2xl md:px-4  text-[#BF330E]  font-bold">Tribecka</h1>
           </div>
         </Link>
         <Menu

@@ -157,6 +157,7 @@ const ProductDetails = ({ product, products }) => {
         </div>
 
         <RelatedProducts products={products} />
+        
       </Wrapper>
     </div>
   );

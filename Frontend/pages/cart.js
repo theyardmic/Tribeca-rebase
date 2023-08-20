@@ -127,6 +127,8 @@ const Cart = () => {
                         </Link>
                     </div>
                 )}
+
+
             </Wrapper>
         </div>
     );

@@ -22,6 +22,7 @@ const Success = () => {
                         Continue Shopping
                     </Link>
                 </div>
+     
             </Wrapper>
         </div>
     );

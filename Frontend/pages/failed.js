@@ -17,6 +17,7 @@ const Failed = () => {
                         Continue Shopping
                     </Link>
                 </div>
+     
             </Wrapper>
         </div>
     );
