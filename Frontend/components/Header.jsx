@@ -55,16 +55,16 @@ const Nav_Header = () => {
     justify-between z-20 sticky top-0 transition-transform duration-300 ${show}`}
     >
       <Wrapper className="h-[60px] flex justify-between items-center">
-        <Link href="/">
-          <div className="flex items-center  space-x-2 md:-space-x-4 -md:px-4 cursor-pointer">
+      <Link href="/">
+          <div className="flex items-center  space-x-3 md:-space-x-6 -md:px-4 cursor-pointer">
             <Image
               src="/logo.svg"
               alt="Logo"
-              width={150}
-              height={150}
-              className="rounded-full md:mr-3"
+              width={50}
+              height={5}
+              className="rounded-full -ml-4   md:mr-4 -sm:mr-3"
             />
-          
+            <h1 className="text-2xl md:px-4 font-urbanist font-bold">Tribecka</h1>
           </div>
         </Link>
         <Menu
