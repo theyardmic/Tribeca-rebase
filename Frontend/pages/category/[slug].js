@@ -31,8 +31,8 @@ const Category = ({ category, products, slug }) => {
   return (
     <div className="w-full md:py-20 relative">
       <Wrapper>
-        <div className="text-center max-w-[800px] mx-auto mt-8 md:mt-0">
-          <div className="text-[28px] md:text-[34px] mb-5 font-semibold leading-tight">
+        <div className="text-center max-w-[800px] mx-auto mt-4 md:mt-0">
+          <div className="text-[28px] md:text-[34px] mb-5  text-[#BF330E]  font-semibold leading-tight">
             {category?.data?.[0]?.attributes?.name}
           </div>
         </div>
@@ -49,19 +49,19 @@ const Category = ({ category, products, slug }) => {
         {data?.meta?.pagination?.total > maxResultCount && (
           <div className="flex gap-3 items-center justify-center my-16 md:my-0">
             <button
-              className={`rounded py-2 px-4 bg-black text-white disabled:bg-gray-200 disabled:text-gray-500`}
+              className={`rounded py-2 px-4 bg-[#BF330E]  text-white disabled:bg-gray-200 disabled:text-gray-500`}
               disabled={pageIndex === 1}
               onClick={() => setPageIndex(pageIndex - 1)}
             >
               Previous
             </button>
 
-            <span className="font-bold">{`${pageIndex} of ${
+            <span className="font-bold text-[#BF330E] ">{`${pageIndex} of ${
               data && data.meta.pagination.pageCount
             }`}</span>
 
             <button
-              className={`rounded py-2 px-4 bg-black text-white disabled:bg-gray-200 disabled:text-gray-500`}
+              className={`rounded py-2 px-4 bg-[#BF330E]  text-white disabled:bg-gray-200 disabled:text-gray-500`}
               disabled={pageIndex === (data && data.meta.pagination.pageCount)}
               onClick={() => setPageIndex(pageIndex + 1)}
             >

@@ -57,7 +57,7 @@ const ProductDetails = ({ product, products }) => {
 
             {/**PRODUCT SUBTITLE */}
 
-            <div className="text-lg font-semibold mb-5">{p.subtitle}</div>
+            <div className="text-lg font-semibold  text-[#BF330E]  mb-5">{p.subtitle}</div>
 
             {/* PRODUCT PRICE */}
             <div className="flex items-center">
