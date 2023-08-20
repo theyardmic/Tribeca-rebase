@@ -45,7 +45,7 @@ const Cart = () => {
                     <>
                         {/* HEADING AND PARAGRAPH START */}
                         <div className="text-center max-w-[800px] mx-auto mt-8 md:mt-0">
-                            <div className="text-[28px] md:text-[34px] mb-5 font-semibold leading-tight">
+                            <div className="text-[28px] text-[#BF330E] md:text-[34px] mb-5 font-semibold leading-tight">
                                 Shopping Cart
                             </div>
                         </div>
@@ -73,7 +73,7 @@ const Cart = () => {
                                         <div className="uppercase text-md md:text-lg font-medium text-black">
                                             Subtotal
                                         </div>
-                                        <div className="text-md md:text-lg font-medium text-black">
+                                        <div className="text-md md:text-lg font-medium text-[#BF330E]">
                                             ${subTotal}
                                         </div>
                                     </div>
