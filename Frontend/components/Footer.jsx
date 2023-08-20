@@ -6,7 +6,7 @@ import Link from "next/link";
 
 const Footer = () => {
   return (
-    <footer className="bg-black bottom-0 min-w-full  text-white pt-14 pb-3">
+    <footer className="bg-[#BF330E] bottom-0 min-w-full  text-white pt-14 pb-3">
       <Wrapper className="flex justify-between flex-col md:flex-row gap-[50px] md:gap-0">
         {/* LEFT START */}
         <div className="flex gap-[50px] md:gap-[75px] lg:gap-[100px] flex-col md:flex-row">
@@ -75,17 +75,17 @@ const Footer = () => {
         {/* RIGHT START */}
         <div className="flex gap-4 justify-center md:justify-start">
           <Link href="https://www.facebook.com/" passHref>
-            <div className="w-10 h-10 rounded-full bg-white/[0.25] flex items-center justify-center text-black hover:bg-white/[0.5] cursor-pointer">
+            <div className="w-10 h-10 rounded-full bg-white/[0.25] flex items-center justify-center text-white hover:bg-white/[0.5] cursor-pointer">
               <FaFacebookF size={20} />
             </div>
           </Link>
           <Link href="https://twitter.com/" passHref>
-            <div className="w-10 h-10 rounded-full bg-white/[0.25] flex items-center justify-center text-black hover:bg-white/[0.5] cursor-pointer">
+            <div className="w-10 h-10 rounded-full bg-white/[0.25] flex items-center justify-center text-white hover:bg-white/[0.5] cursor-pointer">
               <FaTwitter size={20} />
             </div>
           </Link>
           <Link href="https://www.instagram.com/" passHref>
-            <div className="w-10 h-10 rounded-full bg-white/[0.25] flex items-center justify-center text-black hover:bg-white/[0.5] cursor-pointer">
+            <div className="w-10 h-10 rounded-full bg-white/[0.25] flex items-center justify-center text-white hover:bg-white/[0.5] cursor-pointer">
               <FaInstagram size={20} />
             </div>
           </Link>

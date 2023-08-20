@@ -44,7 +44,7 @@ const ProductCard = ({ data }) => {
       <div className="p-4 text-black">
         <h2 className="text-lg font-extra-bold">{name}</h2>
         <div className="flex items-center text-black">
-          <p className="mr-2 text-lg font-bold">{`$${price}`}</p>
+          <p className="mr-2 text-lg text-green-600 font-bold">{`$${price}`}</p>
           {original_price && (
             <>
               <p className="text-base font-medium line-through">{`$${original_price}`}</p>

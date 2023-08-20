@@ -18,7 +18,7 @@ const HeroCarousel = () => {
             <div
               onClick={clickHandler}
               className="absolute right-[3px] md:right-[51px] bottom-0 w-[30px] md:w-[50px] h-[30px] 
-            md:h-[50px] bg-black z-10 flex items-center justify-center cursor-pointer hover:opacity-90"
+            md:h-[50px] bg-[#FF8018] z-10 flex items-center justify-center cursor-pointer hover:opacity-90"
             >
               <BiArrowBack className="text-sm md:text-lg" />
             </div>
@@ -29,7 +29,7 @@ const HeroCarousel = () => {
             <div
               onClick={clickHandler}
               className="absolute right-0  bottom-0 w-[30px] md:w-[50px] h-[30px] 
-              md:h-[50px] bg-black z-10 flex items-center justify-center cursor-pointer hover:opacity-90"
+              md:h-[50px] bg-[#FF8018] z-10 flex items-center justify-center cursor-pointer hover:opacity-90"
             >
               <BiArrowBack className="rotate-180 text-sm md:text-lg" />
             </div>
@@ -45,7 +45,7 @@ const HeroCarousel = () => {
 
           <div
             className="px-[15px] md:px-[40px] py-[10px] md:py-[25px] font-urbanist bg-white absolute bottom-[25px] md:bottom-[75px]
-      left-0 text-black/[0.9] text-[15px] md:text-[30px] uppercase font-medium cursor-pointer hover:opacity-90"
+      left-0 text-[#FF8018]/[0.9] text-[15px] md:text-[30px] uppercase font-medium cursor-pointer hover:opacity-90"
           >
             African Coffee and Tea
           </div>
@@ -59,7 +59,7 @@ const HeroCarousel = () => {
 
           <div
             className="px-[15px] md:px-[40px] py-[10px] md:py-[25px] font-urbanist bg-white absolute bottom-[25px] md:bottom-[75px]
-      left-0 text-black/[0.9] text-[15px] md:text-[30px] uppercase font-medium cursor-pointer hover:opacity-90"
+      left-0  text-[#FF8018]/[0.9] text-[15px] md:text-[30px] uppercase font-medium cursor-pointer hover:opacity-90"
           >
            African Collectibles
           </div>
@@ -73,7 +73,7 @@ const HeroCarousel = () => {
 
           <div
             className="px-[15px] md:px-[40px] py-[10px] md:py-[25px] font-urbanist bg-white absolute bottom-[25px] md:bottom-[75px]
-      left-0 text-black/[0.9] text-[15px] md:text-[30px] uppercase font-medium cursor-pointer hover:opacity-90"
+      left-0  text-[#FF8018]/[0.9] text-[15px] md:text-[30px] uppercase font-medium cursor-pointer hover:opacity-90"
           >
            Kitchen Ware
           </div>
@@ -87,7 +87,7 @@ const HeroCarousel = () => {
 
           <div
             className="px-[15px] md:px-[40px] py-[10px] md:py-[25px] font-urbanist bg-white absolute bottom-[25px] md:bottom-[75px]
-      left-0 text-black/[0.9] text-[15px] md:text-[30px] uppercase font-medium cursor-pointer hover:opacity-90"
+      left-0  text-[#FF8018]/[0.9] text-[15px] md:text-[30px] uppercase font-medium cursor-pointer hover:opacity-90"
           >
             African Jewellery
           </div>
@@ -101,7 +101,7 @@ const HeroCarousel = () => {
 
           <div
             className="px-[15px] md:px-[40px] py-[10px] md:py-[25px] font-Oswald bg-white absolute bottom-[25px] md:bottom-[75px]
-      left-0 text-black/[0.9] text-[15px] md:text-[30px] uppercase font-bold cursor-pointer hover:opacity-90"
+      left-0  text-[#FF8018]/[0.9]] text-[15px] md:text-[30px] uppercase font-bold cursor-pointer hover:opacity-90"
           >
           Home and Living
           </div>

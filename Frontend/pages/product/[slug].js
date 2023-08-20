@@ -122,7 +122,7 @@ const ProductDetails = ({ product, products }) => {
 
             {/**Add to Cart Start */}
             <button
-              className="w-full py-4 rounded-full bg-black text-white text-lg font-medium transition-transform active:scale-95 mb-3 hover:opacity-75"
+              className="w-full py-4 rounded-full bg-[#BF330E] text-white text-lg font-medium transition-transform active:scale-95 mb-3 hover:opacity-75"
               onClick={() => {
                 dispatch(
                   addToCart({
@@ -138,7 +138,7 @@ const ProductDetails = ({ product, products }) => {
             {/**Add to Cart End */}
 
             {/**WishList */}
-            <button className="w-full py-4 rounded-full border border-black  bg-black text-white text-lg font-medium flex  items-center justify-center gap-2 hover:opacity-75 transition-transform active:scale-95 mb-10">
+            <button className="w-full py-4 rounded-full border  bg-[#BF330E] text-white text-lg font-medium flex  items-center justify-center gap-2 hover:opacity-75 transition-transform active:scale-95 mb-10">
               Add to Wishlist
               <IoMdHeartEmpty size={20} />
             </button>

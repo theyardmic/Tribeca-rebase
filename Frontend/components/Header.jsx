@@ -84,8 +84,8 @@ const Nav_Header = () => {
 
           {/*Wishlist Icon Start */}
           <div className="w-8 md:w-12 h-8 md:h-12 rounded-full flex justify-center items-center over:bg-black/[0.05] cursor-pointer relative">
-            <IoMdHeartEmpty className="text-[15px] w-8 h-7 md:text-[20px]" />
-            <div className="md:h-[18px] min-w-[14px] md:min-w-[18px] rounded-full bg-red-600 absolute top-1 left-5 md:left-7 text-white text-[10px] md:text-[12px] flex justify-center items-center px-[2px] md:px-[5px]">
+            <IoMdHeartEmpty className="text-[15px] text-[#BF330E] w-8 h-7 md:text-[20px]" />
+            <div className="md:h-[18px] min-w-[14px] md:min-w-[18px] rounded-full bg-red-600 absolute top-1 left-5 md:left-7 text-[white] text-[10px] md:text-[12px] flex justify-center items-center px-[2px] md:px-[5px]">
               8
             </div>
           </div>
@@ -95,7 +95,7 @@ const Nav_Header = () => {
           {/* Icon start */}
           <Link href="/cart">
             <div className="w-8 md:w-12 h-8 md:h-12 rounded-full flex justify-center items-center hover:bg-black/[0.05] cursor-pointer relative">
-              <BsCart className="text-[15px] w-8 h-7 md:text-[20px]" />
+              <BsCart className="text-[15px] w-8 h-7 text-[#BF330E] md:text-[20px]" />
               {cartItems.length > 0 && (
                 <div className="h-[14px] md:h-[18px] min-w-[14px] md:min-w-[18px] rounded-full bg-red-600 absolute top-1 left-5 md:left-7 text-white text-[10px] md:text-[12px] flex justify-center items-center px-[2px] md:px-[5px]">
                   {cartItems.length}
@@ -109,12 +109,12 @@ const Nav_Header = () => {
           <div className="w-8 md:w-12 h-8 md:h-12 rounded-full flex justify-center items-center over:bg-black/[0.05] cursor-pointer -mr-2 relative">
             {mobileMenu ? (
               <VscChromeClose
-                className="text-[16px] w-8 h-7"
+                className="text-[16px] w-8 h-7 text-[#BF330E]"
                 onClick={() => setMobileMenu(false)}
               />
             ) : (
               <BiMenuAltRight
-                className="text-[20px] w-8 h-7"
+                className="text-[20px] w-8 h-7 text-[#BF330E]"
                 onClick={() => setMobileMenu(true)}
               />
             )}
