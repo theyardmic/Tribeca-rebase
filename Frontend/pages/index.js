@@ -22,7 +22,7 @@ export default function Home({ products }) {
 
       <Wrapper>
         <div className="text-center max-w-[800px] mx-auto my-[50px] md:my-[80px]">
-          <div className="text-2xl md:text-xl  lg:text-3xl  mb-5 font-semibold lading-tight">
+          <div className="text-2xl md:text-xl  lg:text-3xl  text-[#BF330E]  mb-5 font-bold lading-tight">
             Discover the Treasure of Africa at African Tribeca
           </div>
           <div className="text-md md:text-xl">

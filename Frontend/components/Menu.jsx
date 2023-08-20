@@ -33,7 +33,7 @@ const Menu = ({ showCatMenu, setShowCatMenu, categories }) => {
                 {item.name}
                 <BsChevronDown size={14} />
                 {showCatMenu && (
-                  <ul className="bg-white absolute top-6 left-0 min-w-[250px] px-1 py-1 text-black shadow-lg">
+                  <ul className="bg-white absolute top-6 left-0 min-w-[250px] px-1 py-1  text-[#BF330E]  shadow-lg">
                     {categories?.map(({attributes: c, id}) => {
                       return (
                         <Link
@@ -43,7 +43,7 @@ const Menu = ({ showCatMenu, setShowCatMenu, categories }) => {
                         >
                           <li className="h-12 flex justify-between items-center px-3 hover:bg-black/[0.03] rounded-md">
                             {c.name}
-                            <span className="opacity-50 text-sm"> 
+                            <span className="  text-[#BF330E]  font-bold text-sm"> 
                             {`(${c.products.data.length})`}
                             </span>
                           </li>
