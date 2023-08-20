@@ -45,7 +45,7 @@ const HeroCarousel = () => {
 
           <div
             className="px-[15px] md:px-[40px] py-[10px] md:py-[25px] font-urbanist bg-white absolute bottom-[25px] md:bottom-[75px]
-      left-0 text-[#BF330E] text-[15px] md:text-[30px]  font-medium cursor-pointer hover:opacity-90"
+      left-0 text-[#BF330E] text-[15px] md:text-[30px]  font-bold  cursor-pointer hover:opacity-90"
           >
             African Coffee and Tea
           </div>
@@ -59,7 +59,7 @@ const HeroCarousel = () => {
 
           <div
             className="px-[15px] md:px-[40px] py-[10px] md:py-[25px] font-urbanist bg-white absolute bottom-[25px] md:bottom-[75px]
-      left-0  text-[#BF330E] text-[15px] md:text-[30px] font-medium cursor-pointer hover:opacity-90"
+      left-0  text-[#BF330E] text-[15px] md:text-[30px] font-bold  cursor-pointer hover:opacity-90"
           >
            African Collectibles
           </div>
@@ -73,7 +73,7 @@ const HeroCarousel = () => {
 
           <div
             className="px-[15px] md:px-[40px] py-[10px] md:py-[25px] font-urbanist bg-white absolute bottom-[25px] md:bottom-[75px]
-      left-0  text-[#BF330E] text-[15px] md:text-[30px]  font-medium cursor-pointer hover:opacity-90"
+      left-0  text-[#BF330E] text-[15px] md:text-[30px]  font-bold  cursor-pointer hover:opacity-90"
           >
            Kitchen Ware
           </div>
@@ -87,7 +87,7 @@ const HeroCarousel = () => {
 
           <div
             className="px-[15px] md:px-[40px] py-[10px] md:py-[25px] font-urbanist bg-white absolute bottom-[25px] md:bottom-[75px]
-      left-0  text-[#BF330E] text-[15px] md:text-[30px]  font-medium cursor-pointer hover:opacity-90"
+      left-0  text-[#BF330E] text-[15px] md:text-[30px]  font-bold  cursor-pointer hover:opacity-90"
           >
             African Jewellery
           </div>
