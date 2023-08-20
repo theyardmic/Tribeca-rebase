@@ -39,7 +39,7 @@ const HeroCarousel = () => {
       
         <div>
           <img
-            src="slide-1.png"
+            src="slide-1.webp"
             className="aspect-[16/10] h-[525px] w-[1200]  md:aspect-auto object-cover"
           />
 
@@ -53,7 +53,7 @@ const HeroCarousel = () => {
 
         <div>
           <img
-            src="slide-2.png"
+            src="slide-2.webp"
             className="aspect-[16/10] h-[525px] w-[1200]  md:aspect-auto object-cover"
           />
 
@@ -62,6 +62,34 @@ const HeroCarousel = () => {
       left-0 text-black/[0.9] text-[15px] md:text-[30px] uppercase font-medium cursor-pointer hover:opacity-90"
           >
            African Collectibles
+          </div>
+        </div>
+
+        <div>
+          <img
+            src="slide-3.webp"
+            className="aspect-[16/10] h-[525px] w-[900px]  md:aspect-auto object-cover"
+          />
+
+          <div
+            className="px-[15px] md:px-[40px] py-[10px] md:py-[25px] font-urbanist bg-white absolute bottom-[25px] md:bottom-[75px]
+      left-0 text-black/[0.9] text-[15px] md:text-[30px] uppercase font-medium cursor-pointer hover:opacity-90"
+          >
+           Kitchen Ware
+          </div>
+        </div>
+
+        <div>
+          <img
+            src="slide-4.webp"
+            className="aspect-[16/10] h-[520px] w-[1100px]  md:aspect-auto object-cover"
+          />
+
+          <div
+            className="px-[15px] md:px-[40px] py-[10px] md:py-[25px] font-urbanist bg-white absolute bottom-[25px] md:bottom-[75px]
+      left-0 text-black/[0.9] text-[15px] md:text-[30px] uppercase font-medium cursor-pointer hover:opacity-90"
+          >
+            African Jewellery
           </div>
         </div>
 
