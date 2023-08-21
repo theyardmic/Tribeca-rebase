@@ -46,7 +46,17 @@ const ProductCard = ({ data }) => {
 
         <div className="flex items-center text-black">
           <p className="mr-2 text-lg text-green-600 font-bold">{`$${price}`}</p>
-          <button
+   
+          {original_price && (
+            <>
+              <p className="text-base font-medium line-through">{`$${original_price}`}</p>
+              <p className="ml-auto text-base font-medium text-green-500">
+                {getDiscountedPricePercentage(original_price, price)}% Off
+              </p>
+              
+            </>
+          )}
+                 <button
             href={`/product/${slug}`}
             class="flex items-center mt-3 rounded-md bg-[#BF330E]  px-4 py-3 ml-24 text-center text-sm font-medium text-white hover:bg-gray-700 focus:outline-none focus:ring-4 focus:ring-blue-300"
           
@@ -68,14 +78,6 @@ const ProductCard = ({ data }) => {
             </svg>
             Add to cart
           </button>
-          {original_price && (
-            <>
-              <p className="text-base font-medium line-through">{`$${original_price}`}</p>
-              <p className="ml-auto text-base font-medium text-green-500">
-                {getDiscountedPricePercentage(original_price, price)}% Off
-              </p>
-            </>
-          )}
         </div>
       </div>
     </Link>

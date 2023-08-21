@@ -6,6 +6,8 @@ import { fetchDataFromAPi } from "@/utils/api";
 import { useState, useEffect } from "react";
 import TopCategories from "@/components/TopSellers";
 import Features from "@/components/Features";
+import Steps from "@/components/Steps";
+
 
 
 export default function Home({ products }) {
@@ -45,11 +47,15 @@ export default function Home({ products }) {
           ))}
         </div>
       */}
-     <div className="text-2xl md:text-xl  lg:text-3xl  text-[#BF330E]  mb-5 font-bold leading-tight">
-        <h1>Our Top Sellers</h1>   
+     <div className="text-2xl md:text-2xl  lg:text-3xl  text-[#BF330E]  mb-3 font-bold leading-tight">
+        <h1 className="text-center">Our Top Sellers</h1>   
         < TopCategories products={products}/>
           </div>
           <Features />
+          <div className="text-xl md:text-2xl  lg:text-3xl text-center text-[#BF330E]  mb-2 font-bold leading-tight">
+        <h1>Shopping for Aunthetic African Products has never been this easy</h1>
+        </div>
+          <Steps />
       </Wrapper>
     </main>
   );

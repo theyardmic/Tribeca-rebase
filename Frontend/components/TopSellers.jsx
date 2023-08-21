@@ -21,7 +21,7 @@ const TopCategories = ({ products }) => {
     };
 
     return (
-        <div className="mt-[50px] md:mt-[100px] mb-[100px] md:mb-0 ">
+        <div className="mt-[45px] md:mt-[80px] mb-[100px] md:mb-0 ">
     
             <Carousel
                 responsive={responsive}
