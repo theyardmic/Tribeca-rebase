@@ -7,16 +7,13 @@ const Partners = () => {
         <div class="w-40 object-contain px-6">
         <img src="/logo.svg" alt="Corporate Inc" />
         </div>
-        <div class="w-40 px-6">
+        <div class="w-45 px-6">
         <img src="/logo.svg" alt="Corporate Inc" />
         </div>
-        <div class="w-40 px-6">
-          <img src="/logo.svg" alt="Corporate Inc" />
+        <div class="w-45 px-6">
+          <img src="/partner1.jpeg" alt="Corporate Inc" />
         </div>
-        <div class="w-40 px-6">
-          <img src="/logo.svg" alt="Corporate Inc" />
-        </div>
-      
+        
       </div>
     </div>
   );
