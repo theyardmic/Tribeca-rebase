@@ -9,6 +9,8 @@ import Steps from "@/components/Steps";
 import Testimonials from "@/components/Testimonials";
 import Partners from "@/components/Partners";
 import Contact from "@/components/Contact";
+import CTA from "@/components/CTA";
+
 
 export default function Home({ products }) {
   return (
@@ -61,6 +63,7 @@ export default function Home({ products }) {
           For enquiries, Contact us at:
         </h1>
         <Contact />
+        <CTA />
       </Wrapper>
     </main>
   );
