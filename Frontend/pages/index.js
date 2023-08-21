@@ -8,6 +8,7 @@ import Features from "@/components/Features";
 import Steps from "@/components/Steps";
 import Testimonials from "@/components/Testimonials";
 import Partners from "@/components/Partners";
+import Contact from "@/components/Contact";
 
 export default function Home({ products }) {
   return (
@@ -53,9 +54,13 @@ export default function Home({ products }) {
         <Testimonials />
 
         <div className="text-xl md:text-4xl lg:text-4xl text-center text-[#BF330E] mb-2 font-bold leading-tight">
-         Our Partners
+          Our Partners
         </div>
         <Partners />
+        <div className="text-xl md:text-4xl lg:text-4xl text-center text-[#BF330E] mb-2 font-bold leading-tight">
+          For enquiries, Contact us at:
+        </div>
+        <Contact />
       </Wrapper>
     </main>
   );
