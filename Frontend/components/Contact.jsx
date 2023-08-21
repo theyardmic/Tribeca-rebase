@@ -11,7 +11,7 @@ const Contact = () => {
                
                
                 <div className="mb-8 flex w-full max-w-[370px]">
-                  <div className="mr-6 flex h-[60px] w-full max-w-[60px] items-center justify-center overflow-hidden rounded bg-primary bg-opacity-5 text-primary sm:h-[70px] sm:max-w-[70px]">
+                  <div className="mr-6 flex h-[60px] w-full max-w-[60px] items-center justify-center overflow-hidden rounded bg-[#BF330E] bg-opacity-5 text-primary sm:h-[70px] sm:max-w-[70px]">
                     <svg
                       width={24}
                       height={24}
@@ -31,7 +31,7 @@ const Contact = () => {
                   </div>
                 </div>
                 <div className="mb-8 flex w-full max-w-[370px]">
-                  <div className="mr-6 flex h-[60px] w-full max-w-[60px] items-center justify-center overflow-hidden rounded bg-primary bg-opacity-5 text-primary sm:h-[70px] sm:max-w-[70px]">
+                  <div className="mr-6 flex h-[60px] w-full max-w-[60px] items-center justify-center overflow-hidden rounded  bg-[#BF330E] bg-opacity-5 text-primary sm:h-[70px] sm:max-w-[70px]">
                     <svg
                       width={24}
                       height={26}
@@ -53,7 +53,7 @@ const Contact = () => {
                   </div>
                 </div>
                 <div className="mb-8 flex w-full max-w-[370px]">
-                  <div className="mr-6 flex h-[60px] w-full max-w-[60px] items-center justify-center overflow-hidden rounded bg-primary bg-opacity-5 text-primary sm:h-[70px] sm:max-w-[70px]">
+                  <div className="mr-6 flex h-[60px] w-full max-w-[60px] items-center justify-center overflow-hidden rounded  bg-[#BF330E] bg-opacity-5 text-primary sm:h-[70px] sm:max-w-[70px]">
                     <svg
                       width={28}
                       height={19}
@@ -75,7 +75,7 @@ const Contact = () => {
               </div>
             </div>
             <div className="w-full px-4 lg:w-1/2 xl:w-5/12">
-              <div className="relative p-8 bg-white rounded-lg shadow-lg sm:p-12">
+              <div className="relative p-8  text-black bg-white rounded-lg shadow-lg sm:p-12">
                 <form>
                   <ContactInputBox
                     type="text"

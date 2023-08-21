@@ -57,9 +57,9 @@ export default function Home({ products }) {
           Our Partners
         </div>
         <Partners className="mb-3" />
-        <div className="text-xl md:text-4xl lg:text-4xl text-center text-[#BF330E] mt-4  font-bold leading-tight">
+        <h1 className="text-xl md:text-4xl lg:text-4xl text-center text-[#BF330E] mt-4  font-bold leading-tight">
           For enquiries, Contact us at:
-        </div>
+        </h1>
         <Contact />
       </Wrapper>
     </main>
